@@ -1,0 +1,54 @@
+{
+  "name": "trails-jwt-auth-example",
+  "version": "0.1.0",
+  "description": "A new Trails.js Application",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "Mehdi AISSANI",
+    "email": "contact@mehdiaissani.com",
+    "url": "http://mehdiaissani.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "passport-jwt": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "sails-mongo": "^0.12.0",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-express": "^1.0.0",
+    "trailpack-footprints": "^1.0.0-beta-7",
+    "trailpack-passport": "^1.0.0-beta-6",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trailpack-waterline": "^1.0.0-beta-1",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "1.0.0-beta-2",
+    "waterline-sqlite3": "^1.0.3",
+    "winston": "^2.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.8",
+    "eslint-config-trails": "latest",
+    "mocha": "^2.4",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "FriendsOfTrails/trails-jwt-auth-example",
+  "private": false
+}
